@@ -1,3 +1,51 @@
 .widgetSma{
     flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+.widgetSmaTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetSmaImg{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetSmaList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+     
+}
+.widgetSmaListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.widgetSmaUser{
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmaUserTitle{
+    font-weight: 300;
+}
+.widgetSmaButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+
+}
+.widgetSmaIcon{
+    font-size: 16px;
+    margin-right: 5px;
 }
