@@ -9,6 +9,7 @@ export default function WidgetLg() {
     <div className="widgetLg">
         <span className="wigetLgTitle">Latest Transactions</span>
         <table className="widgetLgTable">
+            <tbody>
             <tr className="widgetLgTr">
                 <th className="widgetLgTh">Customer</th>
                 <th className="widgetLgTh">Date</th>
@@ -59,6 +60,9 @@ export default function WidgetLg() {
                     <Button type ="Approved"/>
                 </td>
             </tr>
+
+            </tbody>
+          
         </table>
     </div>
   )
