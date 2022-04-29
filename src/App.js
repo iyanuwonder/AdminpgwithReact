@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import NewUser from './pages/newuser/NewUser';
 function App() {
   return(
     <Router>
@@ -26,6 +27,9 @@ function App() {
           <Route path="/user/:userId" element={<UserSin />}>
             
           </Route>
+          <Route path="/newUser" element={<NewUser />}>
+            
+            </Route>
 
           
         </Routes>

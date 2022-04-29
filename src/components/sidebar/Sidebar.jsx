@@ -1,6 +1,7 @@
 import React from 'react';
 import "./sidebar.css"
 import{LineStyle, Timeline, TrendingUp,Person,Contactless,Assessment,EmailOutlined,CommentOutlined,ChatBubble,WorkOutlineOutlined,Report} from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   return (
@@ -26,14 +27,19 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                 <h3 className="sidebarTittle">Quick Menu</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem">
-                        <Person className="sidebarIcon"/>
-                        User
-                    </li>
-                    <li className="sidebarListItem">
-                        <Person className="sidebarIcon"/>
-                        Product
-                    </li>
+                    <Link to="/users" className="link">
+                        <li className="sidebarListItem">
+                            <Person className="sidebarIcon"/>
+                            User
+                        </li>
+                    </Link>
+                    <Link to="/products"className="link">
+                        <li className="sidebarListItem">
+                            <Person className="sidebarIcon"/>
+                            Product
+                        </li>
+                    </Link>
+                    
                     <li className="sidebarListItem">
                         <Contactless className="sidebarIcon"/>
                         Transaction
