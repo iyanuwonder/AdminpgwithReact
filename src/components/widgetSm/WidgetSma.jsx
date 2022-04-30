@@ -19,10 +19,10 @@ export default function WidgetSma() {
                   </button>
               </li>
               <li className="widgetSmaListItem">
-                  <img src="https://i.ibb.co/61D1q7J/Whats-App-Image-2022-03-11-at-5-45-52-PM.jpg" alt="" className="widgetSmaImg" />
+                  <img src="https://i.ibb.co/F7RdFQh/man.jpg" alt="" className="widgetSmaImg" />
                   <div className="widgetSmaUser">
                       <span className="widgetSmaUsername">Iyanu Mobolaji</span>
-                      <span className="widgetSmaUserTitle">Frontend Dev</span>
+                      <span className="widgetSmaUserTitle">Manager</span>
                   </div>
                   <button className="widgetSmaButton">
                     <Visibility className="widgetSmaIcon"/>
@@ -32,8 +32,8 @@ export default function WidgetSma() {
               <li className="widgetSmaListItem">
                   <img src="https://i.ibb.co/61D1q7J/Whats-App-Image-2022-03-11-at-5-45-52-PM.jpg" alt="" className="widgetSmaImg" />
                   <div className="widgetSmaUser">
-                      <span className="widgetSmaUsername">Iyanu Mobolaji</span>
-                      <span className="widgetSmaUserTitle">Frontend Dev</span>
+                      <span className="widgetSmaUsername">Praise Ishola</span>
+                      <span className="widgetSmaUserTitle">Graphic Designer</span>
                   </div>
                   <button className="widgetSmaButton">
                     <Visibility className="widgetSmaIcon"/>
@@ -41,10 +41,10 @@ export default function WidgetSma() {
                   </button>
               </li>
               <li className="widgetSmaListItem">
-                  <img src="https://i.ibb.co/61D1q7J/Whats-App-Image-2022-03-11-at-5-45-52-PM.jpg" alt="" className="widgetSmaImg" />
+                  <img src="https://i.ibb.co/F7RdFQh/man.jpg" alt="" className="widgetSmaImg" />
                   <div className="widgetSmaUser">
                       <span className="widgetSmaUsername">Iyanu Mobolaji</span>
-                      <span className="widgetSmaUserTitle">Frontend Dev</span>
+                      <span className="widgetSmaUserTitle">Backend Dev.</span>
                   </div>
                   <button className="widgetSmaButton">
                     <Visibility className="widgetSmaIcon"/>
@@ -52,10 +52,10 @@ export default function WidgetSma() {
                   </button>
               </li>
               <li className="widgetSmaListItem">
-                  <img src="https://i.ibb.co/61D1q7J/Whats-App-Image-2022-03-11-at-5-45-52-PM.jpg" alt="" className="widgetSmaImg" />
+                  <img src="https://i.ibb.co/V2b2Cy8/lady.jpg" alt="" className="widgetSmaImg" />
                   <div className="widgetSmaUser">
-                      <span className="widgetSmaUsername">Iyanu Mobolaji</span>
-                      <span className="widgetSmaUserTitle">Frontend Dev</span>
+                      <span className="widgetSmaUsername">Praise Ishola</span>
+                      <span className="widgetSmaUserTitle">Teacher</span>
                   </div>
                   <button className="widgetSmaButton">
                     <Visibility className="widgetSmaIcon"/>
