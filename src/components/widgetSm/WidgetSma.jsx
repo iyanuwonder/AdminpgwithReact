@@ -1,6 +1,6 @@
 import React from "react"
 import "./widgetSma.css"
-import {Visibility} from '@material-ui/icons';
+import { Visibility } from '@material-ui/icons';
 
 export default function WidgetSma() {
     return (
