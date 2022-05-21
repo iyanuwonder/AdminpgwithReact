@@ -5,7 +5,8 @@ import "./home.css"
 import{ userData } from "../../dummyData";
 import WidgetLg from '../../components/widgetLg/WidgetLg';
 import WidgetSma from '../../components/widgetSm/WidgetSma';
-import SliderBar from '../../components/slider/SliderBar';
+import VerticalSlider from '../../components/slider/SliderBar';
+import ProgressBar from '../../components/progressBar/ProgressBar';
 
 export default function Home(props) {
   const [sliderValue, setSliderValue] = useState(1);
@@ -27,9 +28,12 @@ export default function Home(props) {
         <FeaturedInfo/>
         <div className='slider'></div>
         <div className='chartContainer'>
-          <SliderBar onDataSet={getSliderData} />
+          <VerticalSlider onDataSet={getSliderData} />
           <Chart data={userDataTransform} title="User Analytic" grid dataKey="Active User"/>
+          <ProgressBar sliderValue={sliderValue} />
         </div>
+        
+        
         <div className="homeWidgets ">
           <WidgetSma/>
           <WidgetLg/>
