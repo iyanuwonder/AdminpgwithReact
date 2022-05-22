@@ -25,7 +25,7 @@ export default function Home(props) {
 
   return (
     <div className="home">
-        <FeaturedInfo/>
+        <FeaturedInfo sliderValue={sliderValue}/>
         <div className='slider'></div>
         <div className='chartContainer'>
           <VerticalSlider onDataSet={getSliderData} />
